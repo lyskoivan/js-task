@@ -1,0 +1,16 @@
+.button {
+	padding: 0px 40px;
+	outline: none;
+	font-size: 18px;
+	border: none;
+	background: $orange-color;
+	color: #fff;
+	opacity: 1;
+	transition: 0.3s ease-in-out;
+	&:hover {
+		opacity: 0.8;
+	}
+	&--create-note {
+		font-weight: bold;
+	}
+}

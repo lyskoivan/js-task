@@ -1,0 +1,36 @@
+.navigation__notes-filter {
+	position: relative;
+	cursor: pointer;
+}
+.select {
+	background-color: #fff;
+	color: $black-color;
+	padding: 12px;
+	width: 250px;
+	border: none;
+	font-size: 20px;
+	appearance: button;
+	outline: none;
+}
+
+.navigation__notes-filter::after {
+	content: '';
+	position: absolute;
+	background-image: url(https://jobs.ciklum.com/wp-content/themes/ciklum-jobs/img/down-arrow.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #222;
+	right: 8px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 15px;
+	height: 15px;
+}
+
+.select option {
+	padding: 30px;
+}
+.select option:hover {
+	background-color: $black-color;
+}

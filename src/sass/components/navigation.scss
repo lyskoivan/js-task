@@ -1,0 +1,33 @@
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 70px;
+}
+
+.navigation__search {
+	display: flex;
+}
+
+.navigation__search-input {
+	width: 100%;
+	border: none;
+	padding: 5px;
+	outline: none;
+	color: $gray-color;
+}
+
+.navigation__search-input:focus {
+	color: $black-color;
+}
+
+.navigation__search-button {
+	outline: none;
+	width: 50px;
+	border: none;
+	border-top: 0px;
+	background: $orange-color;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	font-size: 20px;
+}

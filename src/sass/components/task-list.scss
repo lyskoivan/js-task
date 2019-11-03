@@ -1,0 +1,16 @@
+.task-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	&__item {
+		flex: 0 0 calc(33.3333% - 16px);
+		min-width: 320px;
+
+		&:not(:nth-child(3)) {
+			margin-right: 16px;
+		}
+		&:not(:nth-child(-n + 3)) {
+			margin-top: 16px;
+		}
+	}
+}
