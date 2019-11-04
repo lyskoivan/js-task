@@ -1,4 +1,4 @@
-.navigation__notes-filter {
+.navigation__task-filter {
 	position: relative;
 	cursor: pointer;
 }
@@ -13,7 +13,7 @@
 	outline: none;
 }
 
-.navigation__notes-filter::after {
+.navigation__task-filter::after {
 	content: '';
 	position: absolute;
 	background-image: url(https://jobs.ciklum.com/wp-content/themes/ciklum-jobs/img/down-arrow.svg);
@@ -33,4 +33,10 @@
 }
 .select option:hover {
 	background-color: $black-color;
+}
+@media (max-width: 1100px) {
+	.select {
+		width: 100%;
+		margin-top: 10px;
+	}
 }

@@ -1,0 +1,69 @@
+.task-editor {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-width: 320px;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+}
+
+.item-editor {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-width: 320px;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+}
+
+.task-editor__label {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	color: $black-color;
+}
+
+.task-editor__label + .task-editor__label {
+	margin-top: 16px;
+}
+
+.task-editor__field-name {
+	margin-bottom: 8px;
+	font-size: 18px;
+}
+
+.task-editor__input {
+	display: inline-block;
+	position: relative;
+	border: 1px solid $black-color;
+	border-radius: 2px;
+	font: inherit;
+	padding: 8px;
+	outline: none;
+}
+
+.task-editor__input:focus {
+	border-color: $blue-color;
+}
+.modal-select {
+	margin-top: 20px;
+	border: 1px solid $black-color;
+}
+.task-editor__select {
+	margin-top: 16px;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	cursor: default;
+}
+.modal-select {
+	margin-top: 0px;
+	width: 100%;
+}
+.task-editor__select::after {
+	top: 50%;
+}

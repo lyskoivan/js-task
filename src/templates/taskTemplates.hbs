@@ -1,0 +1,24 @@
+<li class="task-list__item" data-id={{id}}>
+    <div class="list-item">
+        <div class="list-item__content">
+            <h3 class="list-item__title">{{title}}</h3>
+            <p class="list-item__description">{{description}}</p>
+        </div>
+        <div class="list-item__footer">
+            <section class="list-item__section">
+                <span class="list-item__priority">Priority: {{priority}}</span>
+            </section>
+            <section class="list-item__section">
+                <button class="action" data-action="edit-note">
+                    <i class="material-icons action__icon">edit</i>
+                </button>
+                <button class="action" data-action="delete-note">
+                    <i class="material-icons action__icon">delete</i>
+                </button>
+                <button class="action" data-action="status-note">
+                    <i class="material-icons action__icon">done</i>
+                </button>
+            </section>
+        </div>
+    </div>
+</li>
