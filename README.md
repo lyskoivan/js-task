@@ -1,6 +1,6 @@
 # Technical task 'TODOList' || Ciklum University: JS Band Internship
 
-[App on GitHub Pages](https://github.com/lyskoivan/js-task)
+[App on GitHub Pages](https://lyskoivan.github.io/js-task/dist/index.html)
 
 ## How To Use
 
